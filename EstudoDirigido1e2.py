@@ -222,26 +222,16 @@ questões o usuário acertou e quantos pontos obteve, sabendo que uma questão c
 equivale a dois pontos.
 '''
 qtd_acertos = 0
-qtd_pontos = 0
 
 p1 = int(input('[1] São Paulo\n[2] Brasilia\n[3] Rio de Janeiro\n[4] Salvador\nQual é a capital do Brasil? '))
 if p1 == 2:
-    qtd_acertos = qtd_acertos + 1
-    qtd_pontos = qtd_pontos + 2
-else:
-    pass
+    qtd_acertos += 1
 p2 = int(input('[1] Jacaré\n[2] Gato\n[3] Galinha\n[4] Sapo\nQual desses animais é um mamífero? '))
 if p2 == 2:
-    qtd_acertos = qtd_acertos + 1
-    qtd_pontos = qtd_pontos + 2
-else:
-    pass
+    qtd_acertos += 1
 p3 = int(input('[1] Verde\n[2] Laranja\n[3] Azul\n[4] Roxo\nQual dessas cores é primária? '))
 if p3 == 3:
-    qtd_acertos = qtd_acertos + 1
-    qtd_pontos = qtd_pontos + 2
-else:
-    pass
-print(f'a quantidade de acertos é: {qtd_acertos}.\na quantidade de pontos é: {qtd_pontos}.')
+    qtd_acertos +=1
+print(f'a quantidade de acertos é: {qtd_acertos}.\na quantidade de pontos é: {2 * qtd_acertos}.')
 print('2ex9 ^^^\n')
 print('FIM')
