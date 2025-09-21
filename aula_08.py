@@ -1,17 +1,17 @@
-# q08?
+# q08
 
-'''deposito_inicial = float(input('digite o valor inicial que sera depositado na poupança: '))
+deposito_inicial = float(input('digite o valor inicial que sera depositado na poupança: '))
 taxa_juros = float(input('digite a taxa de juros da aplicação: ')) / 100
 contador = 1
 
 while contador <= 24:
     montante = deposito_inicial * (1 + taxa_juros)** contador
     print(f'{contador}° mês: R${montante:.2f}')
-    contador += 1'''
+    contador += 1
 
 # q09
 
-'''valor_total = 0
+valor_total = 0
 
 while True:
     valor_item = float(input('informe o valor do produto escolhido: '))
@@ -25,7 +25,7 @@ while True:
 if valor_total > 1000:
     valor_total -= 0.10 * valor_total
 
-print(f'o valor total a ser pago é de: R${valor_total:.2f}.')'''
+print(f'o valor total a ser pago é de: R${valor_total:.2f}.')
 
 # for soletrar
 
