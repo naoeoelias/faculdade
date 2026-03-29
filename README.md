@@ -4,7 +4,6 @@ Este repositório nada mais é do que meus codigos, conteudos ou anotações que
 Nele constam duas linguagens de programação, até agora. Sáo elas:
 
 # [Python](https://github.com/naoeoelias/faculdade/tree/main/Python)
-e
 # [Java](https://github.com/naoeoelias/faculdade/tree/main/Java)
 
 Aproveite para explorar, se inspirar e também codar ;)
