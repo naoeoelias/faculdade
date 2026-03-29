@@ -1,4 +1,3 @@
-#!/usr/bin/env xdg-open
 [Desktop Entry]
 Name=Run
 Exec=sh -c '"$(dirname "%k")/FUNCIONA-x86_64.AppImage"'
