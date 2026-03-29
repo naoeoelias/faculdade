@@ -1,4 +1,3 @@
-
 print('>>> ESTUDO DIRIGIDO 2 <<<')
 
 # 1. Faça um programa que solicite a situação de um usuário e o informe se tem direito de utilizar a fila de prioridade.
