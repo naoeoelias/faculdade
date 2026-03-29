@@ -67,5 +67,3 @@ i4 = int(input('digite a quantidade de segundos:\n')) # aqui não precisa de con
 i5 = i1 + i2 + i3 + i4 # calcula a soma de tudo
 print(f'a soma de tudo citado anteriormente em segundos é de: {i5}') # printa a soma de tudo
 print('1ex9 ^^^\n')
-
-# FIM ESTUDO DIRIGIDO 1
