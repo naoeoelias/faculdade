@@ -1,6 +1,6 @@
 1. Primeiro peguei o codigo fonte Main.java e fiz a compilação usando o `javac Main.java`, gerando o arquivo: Main.class
 
-2. apos isso fiz o manifest.txt > apontando que a classe principal do projeto é a Main, para gerar o .jar da aplicação usando o seguinte comando `jar cfm teste.jar manifest.txt Main.class` (sendo: Main.class + manifest.txt)
+2. apos isso fiz o manifest.txt > apontando que a classe principal do projeto é a Main `Main-Class: Main` (+ quebra de linha), para gerar o .jar da aplicação usando o seguinte comando `jar cfm teste.jar manifest.txt Main.class` (sendo: Main.class + manifest.txt)
 
 3. com o .jar gerado, já é possivel executar via terminal usando o `java -jar teste.jar`
 
