@@ -1,3 +1,5 @@
+# TUTORIAL DO EXECUTAVEL
+
 1. Primeiro peguei o codigo fonte Main.java e fiz a compilação usando o `javac Main.java`, gerando o arquivo: Main.class
 
 2. apos isso fiz o manifest.txt > apontando que a classe principal do projeto é a Main `Main-Class: Main` (+ quebra de linha), para gerar o .jar da aplicação usando o seguinte comando `jar cfm teste.jar manifest.txt Main.class` (sendo: Main.class + manifest.txt)
@@ -21,3 +23,17 @@
 11. Após tudo isso, apenas clique em Build wrapper, no canto superior esquerdo, o icone de engrenagem. ao clicar vai pedir para gerar um arquivo XML de configuração, apenas escolha o caminho e renomeie ele com o nome de seu interesse (geralmente eu coloco o nome de cfg.xml e redireciono ele para a pasta que, nesse exemplo, é uma pasta na minha area de trabalho com o nome de pastaresultado)
 
 12. Pronto, seu .exe foi gerado com sucesso. agora você pode fazer um zip dessa pasta e distribuir por ai como uma aplicação portatil.
+
+# TUTORIAL DO INSTALADOR USANDO 7ZIP
+
+1. Após feito tudo isso, vou supor que você já possui o [7zip](https://www.7-zip.org/) instalado na sua maquina windows.
+
+2. Compacte a sua pastaresultado, usada no exemplo apenas com o .exe gerado e o JREcustom no formado .7z (nesse caso deixei o arquivo na area de trabalho)
+
+3. Na raiz do sistema > `C:\Program Files\7-Zip` procure o arquivo entitulado `7z.sfx`.
+
+4. Ao localizar ele copie e cole na area de trabalho, vou fazer tudo na area de trabalho para que facilite no entendimento do processo.
+
+5. Apos tudo isso, no cmd localizado no desktop: `cd C:\Users\elias\Desktop` rode o comando `copy /b 7z.sfx + pastaresultado.7z Instalador.exe`
+
+6. Ao rodar o comando, irá aparecer um arquivo chamado Instalador.exe na sua area de trabalho, ao clicar nele irá aparecer uma tela para o usuario extrair os arquivos da sua aplicação onde deseja e rodar ela sem maiores problemas.
