@@ -40,3 +40,7 @@ PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/u
 Exemplo do que tem no meu arquivo environment (com o java previamente configurado), todos esses locais são variaveis do path, divididas por : pelo o que eu entendi. apenas acrescentei o caminho dos binarios do java no final para que funcione em todo o sistema linux.
 
 7. Pronto, agora a sua variavel de ambiente JAVA está devidamente configurada no Linux Mint! :)
+
+<!-- sudo apt install codeblocks build-essential -->
+<!-- sudo apt install xterm -->
+<!-- isso é apenas um save de uma coisa de c++ no linux, coisas vão vir por ai :P -->
