@@ -31,7 +31,7 @@ Nesse caso, em ambos os sistemas são um arquivo zipado, no caso do windows é u
 
 4. Logo apos disso, no mesmo terminal altere a outra variavel: `export PATH=$JAVA_HOME/bin`
 
-5. Para colocar permanentemente no USUARIO ATUAL, cole esses dois comandos anteriores (`export JAVA_HOME=/opt/jdk-26` e `export PATH=$JAVA_HOME/bin`) no final dos arquivos `~/.bashrc` e `~/.profile`, localizados na pasta do usuario.
+5. Para colocar permanentemente no USUARIO ATUAL, cole esses dois comandos anteriores (`export JAVA_HOME=/opt/jdk-26` e `export PATH=$JAVA_HOME/bin:$PATH`) no final dos arquivos `~/.bashrc` e `~/.profile`, localizados na pasta do usuario.
 
 6. Já para colocar permanentemente a NIVEL DE SISTEMA (todos os usuarios), acrescente a variavel PATH o caminho dos binarios do JAVA conforme o exemplo: `/opt/jdk-26/bin` no arquivo environment, localizado em `/etc/environment` (ABRA O ARQUIVO COMO ROOT PARA QUE NÃO RETORNE ACESSO NEGADO AO SALVAR)
 ```
