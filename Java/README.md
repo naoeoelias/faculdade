@@ -13,9 +13,9 @@ Nesse caso, em ambos os sistemas são um arquivo zipado, no caso do windows é u
 
 3. Abra o CMD do Windows e coloque o seguinte comando para colocar na SESSÃO ATUAL DO TERMINAL: set JAVA_HOME=(caminho_da_pasta). Exemplo `set JAVA_HOME=C:\Program Files\openjdk-26_windows-x64_bin\jdk-26`
 
-4. Logo apos disso, no mesmo terminal altere a outra variavel: `set PATH=%JAVA_HOME%\bin;%PATH%`
+4. Logo apos disso, no mesmo terminal altere a outra variavel: `set PATH=%JAVA_HOME%\bin`
 
-5. Para colocar permanentemente no USUARIO ATUAL, utilize os seguintes comandos: `setx JAVA_HOME "C:\Program Files\openjdk-26_windows-x64_bin\jdk-26"` e `setx PATH "%JAVA_HOME%\bin;%PATH%"` (para entrar em vigor, feche a sessão atual do terminal e abra novamente)
+5. Para colocar permanentemente no USUARIO ATUAL, utilize os seguintes comandos: `setx JAVA_HOME "C:\Program Files\openjdk-26_windows-x64_bin\jdk-26"` e `setx PATH "%JAVA_HOME%\bin"` (para entrar em vigor, feche a sessão atual do terminal e abra novamente)
 
 6. Já para colocar permanentemente a NIVEL DE SISTEMA (todos os usuarios), acrescente o parametro `/M` ao final do comando, isso requer permissão root, de administrador: `setx JAVA_HOME "C:\Program Files\openjdk-26_windows-x64_bin\jdk-26" /M` e `setx PATH "%JAVA_HOME%\bin;%PATH%" /M` (ABRA O CMD COMO ADMINISTRADOR PARA QUE NÃO RETORNE ACESSO NEGADO AO RODAR O COMANDO)
 
